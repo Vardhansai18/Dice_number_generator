@@ -1,0 +1,48 @@
+html, body {
+    margin: 0;
+    padding: 0;
+  }
+
+.container {
+      background-color: rgb(255, 255, 237);
+      padding: 0 20px;
+      display : flex;
+      justify-content: center ;
+      align-items: center ;
+      max-width: 100% ;
+      height : 100vh;
+      margin : 0 auto ;
+}
+
+.counter-div{
+    width: 40rem;
+    border: 3px solid black;
+    background-color: rgb(82, 85, 231);
+    padding: 1rem;
+    color : white ;
+    text-align: center;
+    /* align-items: center ; */
+    border-radius: 15px ;
+}
+.counter-div >*{
+    margin-bottom: 2rem ;
+}
+
+.count{
+    font-size: 4rem;
+}
+.buttons button{
+    padding : 1rem;
+    margin : 0 1rem;
+    font-size: 1.5rem;
+    border : none;
+    outline : none;
+    border-radius: 20px ;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+
+.Generate{
+    background-color: rgb(251, 235, 144)
+}
